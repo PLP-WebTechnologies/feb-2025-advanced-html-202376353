@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+
+    <h1>My PLP Webpage</h1>
+
+    <h2>List of Enrolled Modules </h2>
+    <ol type="I">
+        <li>Python</li>
+        <li>Database design</li>
+        <li>Web Technologies</li>
+        <li>Start up building for developers</li>
+        <li>Software engineering</li>
+    </ol>
+
+    <h2>Women can do it too!</h2>
+    <img src="https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A beautiful landscape" width="450" height="300">
+
+    <h2>Contact Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Methews </td>
+                <td>123 Main St, Johannesburg</td>
+                <td>073-456-7890</td>
+                <td>johnmethews@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave, Cape Town</td>
+                <td>087-654-3210</td>
+                <td>janesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>David Lee</td>
+                <td>789 Pine Ln, Durban</td>
+                <td>081-123-4567</td>
+                <td>davidlee@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>101 Maple Rd, Pretoria</td>
+                <td>082-222-3333</td>
+                <td>emilywhite@example.com</td>
+            </tr>
+            <tr>
+              <td>Michael Brown</td>
+              <td>202 Cedar Ct, Bloemfontein</td>
+              <td>071-555-6666</td>
+              <td>michaelbrown@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form >
+        <h3>Basic Information</h3>
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
+
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <h3>Contact Information</h3>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address" required></textarea><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required><br><br>
+
+        <h3>Gender</h3>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <h3>Select Modules</h3>
+        <label>Select the modules you are enrolling for:</label><br>
+        <input type="checkbox" id="module1" name="modules" value="Python">
+        <label for="module1">Python</label><br>
+        <input type="checkbox" id="module2" name="modules" value="DatabaseDesign">
+        <label for="module2">Database Design</label><br>
+        <input type="checkbox" id="module3" name="modules" value="WebTechnologies">
+        <label for="module3">Web Technologies</label><br><br>
+
+        <h3>Qualification</h3>
+        <label for="qualification">Highest Qualification:</label><br>
+        <select id="qualification" name="qualification">
+            <option value="highSchool">High School</option>
+            <option value="diploma">Diploma</option>
+            <option value="bachelors">Bachelor's Degree</option>
+            <option value="honours"> Honour's Degree</option>
+            <option value="masters">Master's Degree</option>
+            <option value="doctorate">Doctorate</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
